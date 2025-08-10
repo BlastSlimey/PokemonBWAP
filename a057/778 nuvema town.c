@@ -1,6 +1,10 @@
 #include "ScriptHeaders/ScriptCommandsBW1.h"
 #include "ScriptHeaders/MovementCommands.h"
 
+// SCRIPT IS BROKEN!!!!!!!!!!
+// Fixing it, either here or in the re-compiled binary, doesn't work.
+// Editing the vanilla binary is required.
+
 void Sequence0()
 {
 	ActorPauseAll();
@@ -297,6 +301,7 @@ void Sequence11()
 	MsgWinCloseAll();
 	StackPush(0x8000);
 	StackPush(0x8001);
+	// This part needs to be edited manually
 	WorkSet(0x8000, 0x80);
 	WorkSet(0x8001, 1);
 	RTCallGlobal(2805);
@@ -929,10 +934,12 @@ void Sequence16()
 	StackPush(0x407F);
 	StackPushConst(1);
 	StackCmp(1);
+	// ERROR need to manually set 
+	//     1F 00 FF 06 00 00 00
+	// to
+	//     1F 00 FF 02 00 00 00
 	if (255) goto label16;
 	CMD_24e(16, 368);
-
-label16: ;
 	StackPushConst(1);
 	StackCmp(1);
 	if (255) goto label17;
