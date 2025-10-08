@@ -4,10 +4,11 @@ The files here do not get updated frequently, since they're here just to have so
 But since GutHub's API is dumb and gives every release the same timestamp when I don't updates the files here, I'm gonna add a line for every release saying its scope (if I don't forget it):
 
 - lol
+- 0.3.9: Bugs + few features
+- 0.3.8: Bug
+- 0.3.7: Bug
 - 0.3.999: Bugs
 - 0.3.99: One pre-release feature
-- 0.3.8: bug
-- 0.3.7: Bug
 - 0.3.6: Bugs + one feature
 - 0.3.5: Bugs
 - 0.3.4: Bugs + few features
