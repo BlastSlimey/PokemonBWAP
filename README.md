@@ -4,6 +4,7 @@ The files here do not get updated frequently, since they're here just to have so
 But since GitHub's API is dumb and gives every release the same timestamp when I don't updates the files here, I'm gonna add a line for every release saying its scope (if I don't forget it):
 
 - lol
+- 0.3.15: Bugs
 - 0.3.14: Few features + bugs
 - 0.3.13: Bugs + one technical feature
 - 0.3.12: Bug
