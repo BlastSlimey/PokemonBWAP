@@ -1,5 +1,7 @@
 # Pokémon Black and White AP
 
+Link to apworld: https://github.com/SparkyDaDoggo/Archipelago/tree/main/worlds/pokemon_bw
+
 The files here do not get updated frequently, since they're here just to have something here. Proper documentation can be found in the APWorld.
 But since GitHub's API is dumb and gives every release the same timestamp when I don't updates the files here, I'm gonna add a line for every release saying its scope (if I don't forget it):
 
